@@ -9,6 +9,6 @@ def circle_properties(radius):
 
 
 diam, circum, area = circle_properties(5)
-print(f"Διάμετρος: {diam:.2f}") # Διάμετρος: 10.00
-print(f"Περίμετρος: {circum:.2f}") # Περίμετρος: 31.42
-print(f"Εμβαδόν: {area:.2f}") # Εμβαδόν: 78.54
+print(f"Διάμετρος: {diam:.2f}")  # Διάμετρος: 10.00
+print(f"Περίμετρος: {circum:.2f}")  # Περίμετρος: 31.42
+print(f"Εμβαδόν: {area:.2f}")  # Εμβαδόν: 78.54

@@ -1,6 +1,6 @@
 def greet():
     message = "Hello, world!"  # τοπική μεταβλητή 
-    print(message)  
+    print(message)  # Hello, world!
 
 
 greet()  # ok
