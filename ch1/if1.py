@@ -1,8 +1,10 @@
-x = input("Εισάγετε έναν αριθμό: ")
-x = int(x)
-if x > 0:
-    print("Θετικός")
-elif x < 0:
-    print("Αρνητικός")
+grade = int(input("Εισάγετε βαθμό (0-20): "))
+
+if grade < 0 or grade > 20:
+    print("Μη έγκυρη τιμή βαθμού")
+elif grade < 10:
+    print("Αποτυχία")
+elif grade < 18:
+    print("Επιτυχία")
 else:
-    print("Μηδέν")
+    print("Άριστα")
